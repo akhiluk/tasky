@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from tasky.routers import users, auth, tasks, lists
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
